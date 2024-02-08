@@ -1,0 +1,67 @@
+.app-item {
+  padding: 7rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.chips {
+  width: 226px;
+  border-radius: 4px;
+  background: var(--Main-Surface, #fff);
+  box-shadow: 4px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+.chips .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.price p {
+  font-size: 15px;
+}
+.chips .icon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.price h4 {
+  font-weight: 200;
+}
+.chips h1 {
+  font-size: 18px;
+}
+.chips p {
+  font-size: 12px;
+}
+.chips span {
+  width: 100px;
+  height: 20px;
+  color: #fff;
+  background: orange;
+}
+.chips:hover {
+  border-radius: 4px;
+  background: var(--Main-Surface, #fff);
+
+  box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
+}
+
+.chips .star {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.chips button {
+  width: 150px;
+  height: 40px;
+  color: lightgreen;
+  background: #fff;
+  border: 2px solid lightgreen;
+  cursor: pointer;
+}
+.chips button:hover {
+  color: #fff;
+  background: orange;
+  border: none;
+}

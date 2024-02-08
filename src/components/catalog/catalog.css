@@ -1,0 +1,46 @@
+.close {
+  position: fixed;
+  top: 17;
+  left: 17rem;
+  width: 18%;
+  background: #fff;
+  transition: 0.5s ease;
+  z-index: 5;
+  box-shadow: 5px 5px 5px 6px gray;
+}
+.close .overlay-close {
+  font-size: 25px;
+  color: #000;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.overlay-list li {
+  margin: 1rem;
+  cursor: pointer;
+  color: #000;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.overlay-list li {
+  list-style: none;
+}
+.overlay-list li:hover {
+  color: orange;
+}
+.menu {
+  margin: 0.2rem;
+  color: #fff;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  background: #70c05b;
+  cursor: pointer;
+}
